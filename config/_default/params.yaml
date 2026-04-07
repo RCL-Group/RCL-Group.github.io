@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: 'Research Institute'
-    org_name: 'Research Lab'
-    description: 'Leading research lab advancing knowledge through innovative scientific discovery and collaboration.'
-    twitter: 'GetResearchDev'
+    org_name: 'RCL Group'
+    description: 'Robotics Cognition and Learning (RCL) Group at MBZUAI, led by Prof. Xingxing Zuo. Research in robot perception, 3D vision, spatial AI, and embodied AI.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,14 +35,14 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Research Lab'
+      text: 'RCL Group'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} RCL Group, MBZUAI. All rights reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -58,3 +58,12 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Disable social sharing buttons on pages
+share: false
+sharing: false
+
+# Custom CSS
+extensions:
+  css:
+    - custom

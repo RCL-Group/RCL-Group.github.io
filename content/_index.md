@@ -13,28 +13,26 @@ sections:
     id: about
     content:
       title: |
-        Research Lab for
-        **Advancing Science**
+        Robotics Cognition
+        and Learning Group
       text: |
-        We are a leading research group focused on pushing the boundaries of knowledge through innovative research and collaboration. Our multidisciplinary team works on cutting-edge projects at the intersection of technology and science.
+        We are part of the Robotics Department at **MBZUAI**, Abu Dhabi, UAE. Our research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
       primary_action:
         text: Join Our Team
-        url: '#team'
+        url: '/opportunities'
         icon: hero/user-group
       secondary_action:
         text: View Publications
         url: '#publications'
         icon: hero/academic-cap
       announcement:
-        text: "We are hiring PhD students and postdocs!"
+        text: "We are hiring PhD students, research assistants, and postdocs!"
         link:
-          text: "Apply now"
+          text: "Learn more"
           url: "/opportunities"
     design:
-      # For full-screen, add `min-h-screen` below
       css_class: ""
       background:
-        # Option A: Modern gradient mesh (recommended for 2025/2026)
         gradient_mesh:
           enable: true
           style: "waves"
@@ -44,155 +42,78 @@ sections:
             - "primary-500/30"
             - "blue-600/20"
             - "indigo-600/15"
-        
-        # Option B: Team/lab image (uncomment to use instead of gradient mesh)
-        # image:
-        #   filename: "team-lab-hero.jpg"
-        #   filters:
-        #     brightness: 0.6
-        #     contrast: 1.1
-
-  - block: stats
-    content:
-      items:
-        - statistic: "50+"
-          description: Publications in top-tier journals
-          sub_metric: Nature, Science, Cell, PNAS
-          icon: hero/document-text
-        - statistic: "15"
-          description: Brilliant researchers and scientists
-          sub_metric: From 8 countries worldwide
-          icon: hero/user-group
-        - statistic: "$5M"
-          description: Active research funding
-          sub_metric: NSF, NIH, DOE grants
-          icon: hero/currency-dollar
-        - statistic: "12"
-          description: Active research projects
-          sub_metric: Across 3 major domains
-          icon: hero/beaker
-    design:
-      layout: cards
-      # Section background color (CSS class)
-      css_class: "bg-gradient-to-b from-primary-50 to-white dark:from-primary-900/20 dark:to-gray-800"
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
 
   - block: research-areas
+    id: research-areas
     content:
       title: Research Focus Areas
-      subtitle: Pushing the Boundaries of Science
-      text: Our lab conducts cutting-edge research across multiple domains, combining computational methods with experimental validation
+      subtitle: ''
+      text: ''
+      # TODO: Update the research areas below to reflect the group's actual focus
       items:
-        - name: Computational Biology
-          description: Developing state-of-the-art algorithms for genomic analysis, protein structure prediction, and systems biology modeling
-          icon: hero/beaker
-          gradient: from-green-400 to-emerald-600
+        - name: Robot Perception & State Estimation
+          description: Developing robust multi-sensor fusion algorithms (LiDAR-Inertial-Camera) for accurate robot localization and mapping in challenging environments
+          icon: hero/eye
+          gradient: from-blue-400 to-indigo-600
           status: active
           topics:
-            - Genomics
-            - Proteomics
-            - Bioinformatics
-            - Systems Biology
-            - Drug Discovery
-          team_size: 12
-          publications: 45+
-          funding: $2.5M NSF/NIH
+            - Visual-Inertial Odometry
+            - LiDAR SLAM
+            - Multi-Sensor Fusion
+            - Continuous-Time Estimation
           cta:
-            text: Explore Projects
-            url: /research/computational-biology
-            
-        - name: Machine Learning
-          description: Advancing deep learning methods for scientific discovery, with focus on interpretable AI and physics-informed neural networks
-          icon: hero/cpu-chip
+            text: Learn More
+            url: /research/robot-perception
+
+        - name: 3D Vision & Spatial AI
+          description: Advancing 3D scene understanding through neural radiance fields, Gaussian splatting, and foundation model integration for holistic scene representation
+          icon: hero/cube-transparent
           gradient: from-purple-400 to-pink-600
           status: active
           topics:
-            - Deep Learning
-            - Computer Vision
-            - NLP
-            - Graph Neural Networks
-            - Explainable AI
-          team_size: 8
-          publications: 32+
-          funding: $1.8M NSF
-          cta:
-            text: View Research
-            url: /research/machine-learning
-            
-        - name: Materials Science
-          description: Designing novel materials through computational modeling and machine learning-guided discovery
-          icon: emoji/atom_symbol
-          gradient: from-blue-400 to-indigo-600
-          status: emerging
-          topics:
-            - Nanomaterials
-            - Quantum Materials
-            - Energy Storage
-            - Catalysis
-          team_size: 6
-          publications: 28+
-          funding: $1.2M DOE
+            - Neural Radiance Fields (NeRF)
+            - 3D Gaussian Splatting
+            - Dense 3D Reconstruction
+            - Open-Vocabulary 3D Understanding
           cta:
             text: Learn More
-            url: /research/materials-science
-      cta:
-        text: Active Research Projects
-        url: /#research
-        icon: hero/arrow-right
+            url: /research/3d-vision
+
+        - name: Embodied AI & Human-Robot Interaction
+          description: Enabling robots to understand, interact with, and manipulate objects in open environments through vision-language-action models and hand-object interaction
+          icon: hero/hand-raised
+          gradient: from-green-400 to-emerald-600
+          status: active
+          topics:
+            - Hand-Object Interaction
+            - Mobile Manipulation
+            - Vision-Language-Action (VLA)
+            - Visual Language Navigation (VLN)
+          cta:
+            text: Learn More
+            url: /research/embodied-ai
     design:
       layout: cards
       css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
       spacing:
         padding: ["5rem", 0, "5rem", 0]
 
-  - block: cta-image-paragraph
-    content:
-      items:
-        - title: 'State-of-the-Art Research Environment'
-          text: |
-            Our laboratory features cutting-edge equipment and modern research facilities designed to support breakthrough discoveries. From advanced computational clusters to precision instrumentation, we provide our researchers with the tools they need to push the boundaries of science.
-          image: pexels-polina-tankilevitch-3735769.jpg
-          feature_icon: hero/check-circle
-          features:
-            - 'High-Performance Computing: 500+ core GPU cluster for AI/ML research'
-            - 'Advanced Instrumentation: Precision equipment for materials characterization'
-            - 'Safety & Compliance: Full safety protocols and regulatory compliance'
-          button:
-            text: 'Virtual Lab Tour'
-            url: '/facilities'
-
-        - title: 'Collaborative Innovation Culture' 
-          text: |
-            Breakthrough research happens through collaboration. Our open lab environment fosters cross-disciplinary partnerships, knowledge sharing, and mentorship between senior researchers and emerging scientists. Every team member contributes to our collective mission of advancing scientific understanding.
-          image: pexels-canvastudio-3153198.jpg
-          feature_icon: hero/users
-          features:
-            - 'Cross-Disciplinary Teams: Biologists, engineers, and computer scientists working together'
-            - 'Knowledge Sharing: Weekly seminars and collaborative research meetings'
-            - 'Mentorship Program: Structured guidance for PhD students and postdocs'
-          button:
-            text: 'Join Our Community'
-            url: '/opportunities'
-    design:
-      css_class: "bg-white dark:bg-gray-800"
-      spacing:
-        padding: ["4rem", 0, "4rem", 0]
-
   - block: team-showcase
     id: team
     content:
-      title: Meet Our Team
-      subtitle: 'World-class researchers pushing the boundaries of science'
-      text: 'Our diverse team of researchers brings together expertise from multiple disciplines to tackle the most challenging problems in computational biology and machine learning.'
+      title: Team
+      subtitle: ''
+      text: ''
       user_groups:
         - Principal Investigators
         - Postdoctoral Researchers
         - PhD Students
+        - Research Assistants
+        - Visiting Students
       sort_by: 'Params.last_name'
       sort_ascending: true
       cta:
-        text: View All Team Members
+        text: View All Members
         url: /authors
         icon: user-group
     design:
@@ -200,44 +121,15 @@ sections:
       show_organizations: false
       show_interests: true
       show_social: true
-      # Section background color
       css_class: "bg-gray-50 dark:bg-gray-900"
-      # Reduce spacing
       spacing:
         padding: ["3rem", 0, "3rem", 0]
-
-  - block: collection
-    id: projects
-    content:
-      title: Active Research Projects
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - projects
-      count: 0  # Number of items to show (0 = all)
-      # Default filter UI (for future release)
-      #default_button_index: 0
-      # Filter toolbar (optional)
-      # Add or remove as many filters as you like
-    #   buttons:
-    #     - name: All
-    #       tag: '*'
-    #     - name: Machine Learning
-    #       tag: ML
-    #     - name: Biology
-    #       tag: Biology
-    #     - name: Materials
-    #       tag: Materials
-    design:
-      view: article-grid
-      columns: 2
 
   - block: collection
     id: publications
     content:
       title: Recent Publications
-      text: ''
+      text: 'Find the full publication list on [Google Scholar](https://scholar.google.com/citations?user=CePv8agAAAAJ).'
       filters:
         folders:
           - publications
@@ -247,51 +139,13 @@ sections:
       view: citation
 
   - block: collection
-    id: featured
-    content:
-      title: Featured Research
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-
-  - block: collection
-    id: events
-    content:
-      title: Events
-      subtitle: Join Us for Research Presentations & Seminars
-      text: Stay connected with our research community through talks, workshops, and collaborative events
-      filters:
-        folders:
-          - events
-        exclude_past: false  # Show both past and future events
-      count: 3
-      sort_by: Date
-      sort_ascending: false
-    design:
-      view: card
-      # columns: 3
-      show_date: true
-      show_read_time: false
-      show_read_more: true
-      css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
-      spacing:
-        padding: ["4rem", 0, "4rem", 0]
-
-  - block: collection
     id: news
     content:
-      title: Lab News & Updates
+      title: News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 3
-      # Filter on criteria
+      count: 5
       filters:
         author: ''
         category: ''
@@ -300,96 +154,37 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
       columns: 1
-
-  - block: logos
-    content:
-      title: Collaborators & Partners
-      subtitle: Leading the way together
-      text: We work with top universities, research institutes, and industry leaders to advance scientific discovery
-      logos:
-        - name: MIT
-          image: partners/placeholder-logo.svg
-          url: https://mit.edu
-          external: true
-          description: Massachusetts Institute of Technology
-        - name: Stanford University
-          image: partners/placeholder-logo.svg
-          url: https://stanford.edu
-          external: true
-          description: Stanford Research Collaboration
-        - name: Google Research
-          image: partners/placeholder-logo.svg
-          url: https://research.google
-          external: true
-          description: AI & Machine Learning Partnership
-        - name: National Science Foundation
-          image: partners/placeholder-logo.svg
-          url: https://nsf.gov
-          external: true
-          description: Research Funding Partner
-        - name: Microsoft Research
-          image: partners/placeholder-logo.svg
-          url: https://www.microsoft.com/research
-          external: true
-          description: Computing Research Collaboration
-        - name: NIH
-          image: partners/placeholder-logo.svg
-          url: https://nih.gov
-          external: true
-          description: National Institutes of Health
-      cta:
-        text: Become a Partner
-        url: /#contact
-        icon: hero/user-plus
-    design:
-      display_mode: grid
-      show_pattern: false
-      css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
-      spacing:
-        padding: ["4rem", 0, "4rem", 0]
 
   - block: contact-info
     id: contact
     content:
-      title: Contact Us
-      subtitle: Get in touch with our research team
-      visit_title: Visit Our Lab
-      connect_title: Connect With Us
+      title: Contact
+      subtitle: ''
       address:
         lines:
-          - Smith Laboratory
-          - Department of Computer Science
-          - University of Excellence
-          - 123 Science Drive
-          - Excellence City, EC 12345
-          - United States
+          - Robotics Cognition and Learning (RCL) Group
+          - Robotics Department
+          - Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+          - Masdar City, Abu Dhabi, UAE
       office_hours:
-        - "Monday - Friday: 9:00 AM - 5:00 PM"
-        - "Lab Meetings: Fridays 2:00 PM"
-      email: lab@example.edu
-      phone: "+1 (555) 123-4567"
+        - "Sunday - Thursday: 9:00 AM - 5:00 PM (UAE time)"
+      email: xingxing.zuo@mbzuai.ac.ae
       social:
-        - icon: brands/x
-          url: https://twitter.com/SmithLabResearch
-        - icon: brands/linkedin
-          url: https://linkedin.com/company/smith-lab
+        - icon: brands/google-scholar
+          url: https://scholar.google.com/citations?user=CePv8agAAAAJ
         - icon: brands/github
-          url: https://github.com/smith-lab
+          url: https://github.com/ZuoJiaxing
       prospective:
         title: Prospective Members
-        text: Interested in joining our lab? We're always looking for motivated researchers at all levels.
+        text: We are always looking for motivated PhD students, research assistants, visiting students, and postdocs to join the group.
         button:
           text: View Open Positions
           url: /opportunities
-      map_url: https://maps.google.com/?q=University+of+Excellence
       show_form: false
     design:
       css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
@@ -398,14 +193,13 @@ sections:
 
   - block: cta-card
     content:
-      title: Join Our Research Team
-      text: We are always looking for talented and motivated researchers to join our lab. We have openings for PhD students, postdoctoral researchers, and research scientists.
+      title: Join the RCL Group
+      text: We have openings for PhD students, research assistants, visiting graduate students, and postdocs. Please check the positions page for details.
       button:
         text: View Open Positions
         url: /opportunities
     design:
       card:
-        # Card background color (CSS class)
         css_class: 'bg-primary-300 dark:bg-primary-700'
         css_style: ''
 ---

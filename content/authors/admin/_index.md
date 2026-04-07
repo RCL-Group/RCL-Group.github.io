@@ -1,131 +1,84 @@
 ---
 # Display name
-title: Prof. Jane Smith
+title: Xingxing Zuo
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Principal Investigator & Lab Director
+role: Assistant Professor & Lab Director
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations
 organizations:
-  - name: University of Excellence
-    url: https://www.example.edu/
+  - name: MBZUAI
+    url: https://mbzuai.ac.ae/
 
-# Short bio (displayed in user profile at end of posts)
-bio: Leading research in computational biology and machine learning applications to scientific discovery.
+# Short bio
+bio: Leading the Robotics Cognition and Learning (RCL) Group at MBZUAI, focusing on robot perception, 3D vision, and embodied AI.
 
-# Interests to show in About widget
+# Interests
 interests:
-  - Machine Learning & AI
-  - Computational Biology
-  - Drug Discovery
-  - Scientific Computing
-  - Open Science
+  - Robot Perception
+  - 3D Computer Vision
+  - Visual-Inertial Learning
+  - State Estimation
+  - Human-Object Interaction
+  - Mobile Manipulation
+  - VLN / VLA
+  - Spatial AI & Embodied AI
 
-# Education to show in About widget
+# Education
 education:
   courses:
-    - course: PhD in Computational Biology
-      institution: Stanford University
-      year: 2012
-    - course: MS in Computer Science
-      institution: MIT
-      year: 2008
-    - course: BS in Bioinformatics
-      institution: UC Berkeley
-      year: 2006
-
-# Skills
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 100
-        icon: devicon/python
-      - name: Machine Learning
-        description: ''
-        percent: 95
-        icon: hero/chart-line
-      - name: Data Science
-        description: ''
-        percent: 90
-        icon: hero/database
-  - name: Leadership
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Team Management
-        description: ''
-        percent: 95
-        icon: hero/user-group
-      - name: Grant Writing
-        description: ''
-        percent: 90
-        icon: hero/document-text
-      - name: Mentoring
-        description: ''
-        percent: 100
-        icon: hero/academic-cap
+    - course: PhD (Honors)
+      institution: Zhejiang University, China
+      year: 2021
+    - course: BS (Honors)
+      institution: University of Electronic Science and Technology of China (UESTC)
+      year: 2016
 
 # Social/Academic Networking
 social:
   - icon: hero/envelope
-    link: 'mailto:jane.smith@example.edu'
-  - icon: brands/x
-    link: https://twitter.com/ProfJaneSmith
-    label: Follow me on Twitter
+    link: 'mailto:xingxing.zuo@mbzuai.ac.ae'
   - icon: brands/google-scholar
-    link: https://scholar.google.com/citations?user=XXXXXXX
+    link: https://scholar.google.com/citations?user=CePv8agAAAAJ
   - icon: brands/github
-    link: https://github.com/jane-smith-lab
+    link: https://github.com/ZuoJiaxing
   - icon: brands/linkedin
-    link: https://www.linkedin.com/in/prof-jane-smith
-  - icon: brands/orcid
-    link: https://orcid.org/0000-0000-0000-0000
-  # Link to a PDF of your resume/CV from the About widget.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: brands/cv
-    link: uploads/cv-jane-smith.pdf
+    link: https://www.linkedin.com/in/xingxingzuo
+  - icon: brands/x
+    link: https://twitter.com/12Zuo
+  # - icon: brands/orcid
+  #   link: https://orcid.org/XXXX-XXXX-XXXX-XXXX
+  # - icon: brands/cv
+  #   link: uploads/cv.pdf
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+# Highlight the author in author lists?
+highlight_name: false
 
 # Author's website URL
-website: ""
+website: "https://xingxingzuo.github.io/"
 
 # User groups
 user_groups:
   - Principal Investigators
 ---
 
-## About the Lab
+## About
 
-Prof. Jane Smith leads the Computational Biology and Machine Learning Lab at the University of Excellence. With over 15 years of experience in interdisciplinary research, she has pioneered novel approaches to understanding biological systems through computational methods.
+I am an Assistant Professor (tenure-track) in the Robotics Department at MBZUAI, where I lead the **Robotics Cognition and Learning (RCL) Group**.
+
+Prior to this, I was a Postdoc at Caltech (with Prof. Soon-Jo Chung), a Visiting Faculty Researcher at Google, and a Postdoctoral Researcher at the Technical University of Munich (with Prof. Stefan Leutenegger). I was also an academic guest at ETH Zurich (with Prof. Marc Pollefeys). I received my Ph.D. from Zhejiang University under Prof. Guoquan (Paul) Huang and Prof. Yong Liu.
 
 ## Research Vision
 
-Our lab focuses on developing and applying cutting-edge machine learning techniques to solve complex biological problems. We work at the intersection of computer science, biology, and medicine to:
+My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
-- **Predict protein structures and functions** using deep learning models
-- **Discover new drug targets** through computational screening
-- **Analyze genomic data** to understand disease mechanisms
-- **Develop open-source tools** for the scientific community
+## Academic Services
 
-## Leadership & Mentorship
+**Journal Associate Editor:** IEEE Transactions on Robotics (T-RO), IEEE Robotics and Automation Letters (RA-L)
 
-Prof. Smith has mentored over 30 PhD students and postdoctoral researchers, many of whom have gone on to successful careers in academia and industry. She is committed to fostering an inclusive and collaborative research environment where all team members can thrive.
+**Conference Area Chair / Associate Editor:** RSS 2026, IROS 2022-2025, ICRA 2023-2026
 
-## Awards & Recognition
-
-- 2023 - National Science Foundation CAREER Award
-- 2022 - Chan Zuckerberg Initiative Investigator
-- 2021 - MIT Technology Review Innovator Under 40
-- 2020 - NIH New Innovator Award
-
-## Join Our Team
-
-We are always looking for passionate researchers to join our lab. If you're interested in working at the forefront of computational biology and machine learning, please [contact us](/contact) with your CV and research interests.
+For more details, please visit my [personal homepage](https://xingxingzuo.github.io/).

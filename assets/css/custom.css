@@ -1,0 +1,9 @@
+/* Hide social sharing buttons on publication/blog pages */
+section.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl {
+  display: none !important;
+}
+
+/* Hide author profile card at bottom of publication pages */
+div.max-w-prose.print\:hidden > div.flex.pt-12.pb-4 {
+  display: none !important;
+}
