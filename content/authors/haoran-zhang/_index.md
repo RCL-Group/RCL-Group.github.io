@@ -24,6 +24,8 @@ education:
 social:
   - icon: hero/envelope
     link: 'mailto:Haoran.Zhang@mbzuai.ac.ae'
+  - icon: hero/globe-alt
+    link: https://haoranzhangumich.github.io/
   - icon: brands/google-scholar
     link: https://scholar.google.com/citations?user=BrA5fjoAAAAJ
   - icon: brands/github
