@@ -108,7 +108,7 @@ sections:
         - Principal Investigators
         - Postdoctoral Researchers
         - PhD Students
-        - Research Assistants
+        - Master Students
         - Visiting Students
       sort_by: 'Params.last_name'
       sort_ascending: true

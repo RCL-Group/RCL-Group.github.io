@@ -31,3 +31,22 @@ highlight_name: false
 user_groups:
   - Postdoctoral Researchers
 ---
+
+## About
+
+Hongjia Zhai is a postdoctoral researcher at MBZUAI. His research interests include 3D computer vision and embodied AI.
+
+## Research Interests
+
+- 3D Computer Vision
+- Embodied AI
+
+## Education
+
+- **PhD in Computer Science**, Zhejiang University
+- **B.S. in Automation Engineering**, Xi'an Jiaotong University
+
+## Links
+
+- [Personal Website](https://zhaihongjia.github.io/)
+- [Google Scholar](https://scholar.google.com/citations?user=alXpF8wAAAAJ)

@@ -28,5 +28,24 @@ social:
 highlight_name: false
 
 user_groups:
-  - Visiting Students
+  - Alumni
 ---
+
+## About
+
+Omar Garib was a visiting master's student at MBZUAI from the Georgia Institute of Technology. His research interests include robot learning, human-robot interaction, and decision-making under uncertainty.
+
+## Research Interests
+
+- Robot Learning
+- Human-Robot Interaction
+- Decision-Making Under Uncertainty
+
+## Education
+
+- **M.S. in Computational Science and Engineering**, Georgia Institute of Technology
+- **B.S. in Aerospace Engineering**, Georgia Institute of Technology
+
+## Contact
+
+- [Email](mailto:omar.garib@mbzuai.ac.ae)

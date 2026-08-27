@@ -31,3 +31,18 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
+
+## About
+
+Han Zhou is a PhD student at MBZUAI. He received his B.Eng. from Huazhong University of Science and Technology.
+
+## Education
+
+- **PhD Student**, MBZUAI
+- **B.Eng.**, Huazhong University of Science and Technology
+
+## Links
+
+- [Email](mailto:han.zhou@mbzuai.ac.ae)
+- [Personal Website](https://hanzhou04.github.io/)
+- [GitHub](https://github.com/micdz)

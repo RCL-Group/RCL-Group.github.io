@@ -40,3 +40,27 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
+
+## About
+
+Huajian Zeng is a PhD student in Robotics at MBZUAI. His research interests include robot manipulation, 3D vision, and multi-modal perception.
+
+## Research Interests
+
+- Robot Manipulation
+- 3D Vision
+- Multi-modal Perception
+
+## Education
+
+- **PhD in Robotics**, MBZUAI
+- **M.S. in Computer Science**, Technical University of Munich (TUM)
+- **B.S. in Computer Engineering**, TU Berlin
+
+## Links
+
+- [Email](mailto:huajian.zeng@mbzuai.ac.ae)
+- [Personal Website](https://huajian-zeng.github.io/)
+- [Google Scholar](https://scholar.google.com/citations?user=RN6p8AEAAAAJ)
+- [GitHub](https://github.com/huajian-zeng)
+- [LinkedIn](https://www.linkedin.com/in/huajian-zeng-7282b8214)

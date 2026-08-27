@@ -33,5 +33,22 @@ social:
 highlight_name: false
 
 user_groups:
-  - Research Assistants
+  - Master Students
 ---
+
+## About
+
+Haokai Ding is an M.Sc. student at MBZUAI. He received his B.Eng. from Shenzhen Technology University.
+
+## Education
+
+- **M.Sc. Student**, MBZUAI
+- **B.Eng.**, Shenzhen Technology University
+
+## Links
+
+- [Email](mailto:ditang0125@gmail.com)
+- [Personal Website](https://haokaiding.github.io/)
+- [Google Scholar](https://scholar.google.com/citations?user=ikir1CUAAAAJ)
+- [GitHub](https://github.com/HaokaiDing)
+- [LinkedIn](https://www.linkedin.com/in/haokai-ding-a76a7232a)

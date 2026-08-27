@@ -29,3 +29,14 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
+
+## About
+
+Artem Voronov is a PhD student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI).
+
+## Links
+
+- [Email](mailto:artem.voronov@mbzuai.ac.ae)
+- [Google Scholar](https://scholar.google.com/citations?user=rCVVahYAAAAJ)
+- [GitHub](https://github.com/Vor-Art)
+- [LinkedIn](https://www.linkedin.com/in/artem-voronov-inno)

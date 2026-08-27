@@ -31,3 +31,18 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
+
+## About
+
+Roman Voronov is a PhD student at MBZUAI. He received his M.Sc. from Skoltech.
+
+## Education
+
+- **PhD Student**, MBZUAI
+- **M.Sc.**, Skoltech
+
+## Links
+
+- [Email](mailto:Roman.Voronov@mbzuai.ac.ae)
+- [Google Scholar](https://scholar.google.com/citations?user=Nbs9mosAAAAJ)
+- [GitHub](https://github.com/V-Roman-V)

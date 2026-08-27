@@ -29,5 +29,25 @@ social:
 highlight_name: false
 
 user_groups:
-  - Research Assistants
+  - Master Students
 ---
+
+## About
+
+Chenru Wen is an M.Sc. student in Robotics at MBZUAI, co-advised by Prof. Dezhen Song. His research interests include SLAM, embodied AI, robot navigation, and 3D detection and reconstruction.
+
+## Research Interests
+
+- SLAM
+- Embodied AI
+- Robot Navigation
+- 3D Detection and Reconstruction
+
+## Education
+
+- **M.Sc. in Robotics**, MBZUAI (co-advised by Prof. Dezhen Song)
+- **B.Sc. in Computer Science**, Tsinghua University
+
+## Contact
+
+- [Email](mailto:chenru.wen@mbzuai.ac.ae)
